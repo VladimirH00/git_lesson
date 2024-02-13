@@ -12,7 +12,12 @@ int main()
 	for (int i = 0; i < 10; i++)
 	{
 		j += i;
-	
 	}
-	//ConnectionDb con = new Connection(DB_LOGIN, DB_PAWSSORD);
+
+	for (int i = 0; i < 10; i++)
+	{
+		j += i;
+	}
+
+	cout << "Hello World!\n";
 }
