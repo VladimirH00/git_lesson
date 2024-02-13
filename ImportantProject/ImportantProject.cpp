@@ -4,8 +4,10 @@ using namespace std;
 int main()
 {
 	cout << "Hello World!\n";
-
-	cout << "important info project";
-
+	int j = 0;
+	for (int i = 0; i < 10; i++)
+	{
+		j += i;
+	}
 	//ConnectionDb con = new Connection(DB_LOGIN, DB_PAWSSORD);
 }
